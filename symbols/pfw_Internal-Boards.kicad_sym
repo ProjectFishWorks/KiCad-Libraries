@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "projectfishworks-footprints:NodeControllerV2_GPIO_Headers"
 			(at 0 0 0)
 			(effects
 				(font
