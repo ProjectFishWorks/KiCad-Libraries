@@ -10,7 +10,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 20.32 10.16 0)
+			(at 8.128 4.826 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "BMP581"
-			(at 20.32 7.62 0)
+			(at 11.938 -12.954 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -26,7 +26,7 @@
 			)
 		)
 		(property "Footprint" "Project FishWorks:QFN10_BMP581_BOS"
-			(at 0 0 0)
+			(at 21.082 -19.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,26 +73,8 @@
 			)
 		)
 		(symbol "BMP581_0_1"
-			(pin power_in line
-				(at 0 0 0)
-				(length 7.62)
-				(name "VDDIO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin unspecified line
-				(at 0 -2.54 0)
+				(at 0 1.27 0)
 				(length 7.62)
 				(name "SCK"
 					(effects
@@ -109,26 +91,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin unspecified line
-				(at 0 -7.62 0)
+				(at 0 -1.27 0)
 				(length 7.62)
 				(name "SDI"
 					(effects
@@ -146,7 +110,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 0 -10.16 0)
+				(at 0 -3.81 0)
 				(length 7.62)
 				(name "SDO"
 					(effects
@@ -163,8 +127,80 @@
 					)
 				)
 			)
+			(pin unspecified line
+				(at 0 -6.35 0)
+				(length 7.62)
+				(name "CSB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -8.89 0)
+				(length 7.62)
+				(name "INT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 40.64 0 180)
+				(at 17.78 11.43 270)
+				(length 7.62)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 17.78 -19.05 90)
+				(length 7.62)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 20.32 11.43 270)
 				(length 7.62)
 				(name "VDD"
 					(effects
@@ -182,25 +218,7 @@
 				)
 			)
 			(pin power_out line
-				(at 40.64 -2.54 180)
-				(length 7.62)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at 40.64 -5.08 180)
+				(at 20.32 -19.05 90)
 				(length 7.62)
 				(name "VSS"
 					(effects
@@ -217,35 +235,17 @@
 					)
 				)
 			)
-			(pin input line
-				(at 40.64 -7.62 180)
+			(pin power_out line
+				(at 22.86 -19.05 90)
 				(length 7.62)
-				(name "INT"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 40.64 -10.16 180)
-				(length 7.62)
-				(name "CSB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -257,7 +257,7 @@
 		(symbol "BMP581_1_1"
 			(rectangle
 				(start 7.62 3.81)
-				(end 33.02 -13.97)
+				(end 25.4 -11.43)
 				(stroke
 					(width 0)
 					(type solid)
